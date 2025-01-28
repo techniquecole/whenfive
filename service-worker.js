@@ -1,10 +1,24 @@
-const CACHE_NAME_V1 = 'p-receipt-cache-v1';
-const CACHE_NAME_V2 = 'whenfive-cache-v2';
+const CACHE_NAME_V1 = 'whenfive-cache-v1';
+const CACHE_NAME_V2 = 'p-receipt-cache-v2';
 const CACHE_NAME_V3 = 'cunsensus-cache-v3';
 const CACHE_NAME_V4 = 'wygomp-cache-v4';
 
 const urlsToCacheV1 = [
   '/',
+  '/whenfive.html',
+  '/whenfive.css',
+  '/whenfive.js',
+  '/images/high53.jpg',
+  '/images/high54.jpg',
+  '/images/high52.jpg',
+  '/wygomp.html',
+  '/cunsensus.html',
+  '/p-receipt.html',
+  '/fonts/munyon.ttf',
+  'mailto:techniquecole7@gmail.com',
+];
+
+const urlsToCacheV2 = [  
   '/p-receipt.html',
   '/p-receipt.css',
   '/p-receipt.js',
@@ -23,21 +37,7 @@ const urlsToCacheV1 = [
   '/images/receipt.jpg',
   'mailto:techniquecole7@gmail.com',
 ];
-
-const urlsToCacheV2 = [
-  '/whenfive.html',
-  '/whenfive.css',
-  '/whenfive.js',
-  '/images/high53.jpg',
-  '/images/high54.jpg',
-  '/images/high52.jpg',
-  '/wygomp.html',
-  '/cunsensus.html',
-  '/p-receipt.html',
-  '/fonts/munyon.ttf',
-  'mailto:techniquecole7@gmail.com',
-];
-
+ 
 const urlsToCacheV3 = [
   '/cunsensus.html',
   '/cunsensus.ccs',
