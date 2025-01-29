@@ -52,7 +52,7 @@ header{
 }
 @media (max-width: 768px) {
     header {
-        font-size: 13px;
+        font-size: 12px;
         padding: 4px;
         
     }
